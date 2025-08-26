@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 1</title>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        #cabecalho {
+            background-color: aquamarine;
+            padding: 10px; /* Alterado de 'auto' para um valor específico */
+        }
+
+        #skills {
+            background-color: rgb(199, 199, 199);
+        }
+
+        #python {
+            background-color: rgb(199, 199, 199);
+        }
+
+        p {
+            color: red;
+        }
+
+        h1 {
+            color: aliceblue;
+        }
+
+        h2 {
+            color: lightblue;
+        }
+
+        h3 {
+            color: azure;
+        }
+
+        h4 {
+            color: blueviolet;
+        }
+
+        h5 {
+            color: rgb(53, 9, 9);
+        }
+
+        h6 {
+            color: rgb(67, 11, 119);
+        }
+
+
+        .tabela-diagonal {
+            background-color: #7fc3ff; /* Cor de fundo de toda a tabela (AliceBlue) */
+            border-collapse: collapse; /* Une as bordas das células */
+            width: 50%;
+            text-align: center;
+        }
+
+        .tabela-diagonal td, .tabela-diagonal th {
+            border: 2px solid black; /* Bordas sólidas de 2px para todas as células */
+            padding: 8px;
+        }
+
+        .diagonal {
+            background-color: #3bee52; /* Cor de fundo das diagonais (Amarelo) */
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <article>
+            <section>
+                <h1 style="background-color: tomato;">Programação Web</h1>
+                <p style="background-color: bisque;">Professor: Jorge Mauro</p>
+                <h2 style="background-color: slateblue;">
+                    UDF
+                </h2>
+                <h3 style="background-color: blue;">
+                    Desenvolvimento Web com estilizações em CSS
+                </h3>
+                <h4 style="background-color: lightblue;">
+                    Created by: Guilherme Portugal
+                </h4>
+                <h6 style="background-color: aqua;">Crianção de uma página com estilização das cores das fontes</h6>
+            </section>
+        </article>
+
+        <hr>
+        <hr>
+
+
+        <section id="python">
+            <h5 style="background-color: violet;">Python: Frameworks</h5>
+            <ol>
+                <li style="background-color: rgb(255, 99, 71);">Django</li>
+                <li style="background-color: rgb(127, 255, 212);">Flask</li>
+                <li style="background-color: rgb(135, 206, 235);">Selenium</li>
+                <li style="background-color: rgb(240, 230, 140);">Pandas</li>
+                <li style="background-color: rgb(221, 160, 221);">SQL</li>
+            </ol>
+        </section>
+
+        <hr>
+        <hr>
+
+        <section id="skills">
+            <h5 style="background-color: violet;">Skills: Trabalhos e Projetos</h5>
+            <ul>
+                <li style="border: 5px solid red;">Web Scraping</li>
+                <li style="border: 5px solid blue;">Data Analyst</li>
+                <li style="border: 5px solid green;">Data Engineer</li>
+                <li style="border: 5px solid orange;">ERM</li>
+                <li style="border: 5px solid purple;">CRM</li>
+                <li style="border: 5px solid rgb(80, 109, 190);">CSM</li>
+            </ul>
+        </section>
+        <hr>
+        <hr>
+
+        <section>
+            <h5>Tarefa 3: Tabela 5x5</h5>
+            <table class="tabela-diagonal">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>A</th>
+                        <th>B</th>
+                        <th>C</th>
+                        <th>D</th>
+                        <th>E</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>1</b></td>
+                        <td class="diagonal">A1</td>
+                        <td>A2</td>
+                        <td>A3</td>
+                        <td>A4</td>
+                        <td>A5</td>
+                    </tr>
+                    <tr>
+                        <td><b>2</b></td>
+                        <td>B1</td>
+                        <td class="diagonal">B2</td>
+                        <td>B3</td>
+                        <td>B4</td>
+                        <td>B5</td>
+                    </tr>
+                    <tr>
+                        <td><b>3</b></td>
+                        <td>C1</td>
+                        <td>C2</td>
+                        <td class="diagonal">C3</td>
+                        <td>C4</td>
+                        <td>C5</td>
+                    </tr>
+                    <tr>
+                        <td><b>4</b></td>
+                        <td>D1</td>
+                        <td>D2</td>
+                        <td>D3</td>
+                        <td class="diagonal">D4</td>
+                        <td>D5</td>
+                    </tr>
+                    <tr>
+                        <td><b>5</b></td>
+                        <td>E1</td>
+                        <td>E2</td>
+                        <td>E3</td>
+                        <td>E4</td>
+                        <td class="diagonal">E5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+        <hr>
+        
+    </main>
+</body>
+</html>
