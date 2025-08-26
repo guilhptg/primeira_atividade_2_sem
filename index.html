@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+    
+    <style>
+        body {
+            font-family: sans-serif;
+            display: grid;
+            grid-template-areas:
+                "header header"
+                "aside main"
+                "footer footer";
+            grid-template-columns: 200px 1fr;
+            gap: 10px;
+        }
+        header { grid-area: header; background-color: #f2f2f2; padding: 10px; }
+        aside { grid-area: aside; background-color: #e6e6e6; padding: 10px; }
+        main { grid-area: main; background-color: #ffffff; padding: 20px; }
+        footer { grid-area: footer; background-color: #f2f2f2; padding: 10px; text-align: center; }
+        nav a { margin-right: 15px; }
+        aside nav { display: flex; flex-direction: column; }
+        aside nav a { margin-bottom: 10px; }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Faça seu login</h1>
+        <nav>
+            <a href="#">Página 1</a>
+            <a href="#">Página 2</a>
+            <a href="#">Página 3</a>
+        </nav>
+    </header>
+
+    <aside>
+        <h2>Menu Lateral</h2>
+        <nav>
+            <a href="#">Link A</a>
+            <a href="#">Link B</a>
+            <a href="#">Link C</a>
+        </nav>
+    </aside>
+
+    <main>
+        <article>
+            <section>
+                <h2>Conteúdo Principal da Página</h2>
+                <p>Este é o conteúdo principal, contido dentro das tags main, article e section.</p>
+
+                <h3>Músicas da Página</h3>
+                <audio autoplay controls loop preload="auto">
+                    <source src="static/audio/08_roleta_russa.mp3">
+                    <source src="static/audio/01_intro.mp3">
+                    <source src="static/audio/01_a_minha_parte_eu_faco.mp3">
+                    Seu navegador não suporta o elemento de áudio.
+                    <a href="static/audio/10_brincando_de_ser_deus.mp3">Baixar Brincando de ser Deus</a>
+                </audio>
+                
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Sintese Sigma - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
